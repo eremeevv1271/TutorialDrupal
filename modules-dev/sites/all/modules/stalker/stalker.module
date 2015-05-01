@@ -1,0 +1,21 @@
+<?php
+// $Id$
+// CVS placeholder
+
+/**
+ * @file
+ * Main module file for Stalker module.
+ */
+ 
+/**
+ * Implementation of hook_permission().
+ *
+ */   
+ 
+ function stalker_permission() {
+  return array(
+    'stalker blocks' => array(
+      'title' => t('Stalker blocks'),
+    ),
+  );
+}

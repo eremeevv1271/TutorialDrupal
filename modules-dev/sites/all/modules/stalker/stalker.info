@@ -1,0 +1,6 @@
+; $Id$
+; for CVS version is added on the fly
+name = Stalker
+description = A module that tracks users views of profile pages.
+core = 7.x
+package = Example
